@@ -1,1 +1,62 @@
-/* место для вашего кода */
+header {
+    width: 1052px;
+    margin: 92px 24px 96px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.header_logo {
+    position: absolute;
+    width: 148px;
+    height: 105px;
+    margin-left: 476px;
+    margin-right: 476px;
+}
+
+.menu {
+    width: 391px;
+    margin: 44px 36px 39px 22px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: circle;
+}
+
+.menu li {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.menu li:first-child {
+    margin-left: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.contacts {
+  list-style: none;
+  width: 240px;
+  margin: 5px 25px 2px auto;
+  line-height: 24px;
+}
+
+.contacts li {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.contacts a {
+  text-underline-offset: 4px;
+    
+}
